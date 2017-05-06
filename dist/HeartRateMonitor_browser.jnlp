@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HeartRateMonitor_browser.jnlp">
+  <information>
+    <title>HeartRateMonitor</title>
+    <vendor>Lumu</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HeartRateMonitor.jar" size="6835" download="eager" />
+    <jar href="lib\bluecove-2.1.1-SNAPSHOT.jar" size="663800" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="MainForm"  name="HeartRateMonitor" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
